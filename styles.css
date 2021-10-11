@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+.main-container{
+    margin: 0 auto;
+    /* overflow: hidden; */
+    /* background-color: grey; */
+    /* width: 1000px; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn-color-container{
+    margin: 0.3em;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
+}
+.btn-color-container:hover,
+.btn-color-container:focus{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.btn-color-container:active{
+    transform: scale(1);
+}
+
+
+/* Background gradient */
+body {
+    background: linear-gradient(38deg, #f3f04a, #f55757);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
